@@ -1,11 +1,18 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex flex-col justify-center items-center min-h-screen">
       <div className="text-center">
-        <h1 className="text-3xl">Your Blank Canvas</h1>
-        <p>Chat with the agent to start making edits.</p>
+        <h1 className="text-4xl font-bold mb-4">Welcome to Our World Explorer</h1>
+        <p className="mb-6">Discover fascinating information about countries around the globe.</p>
+        <Link to="/china">
+          <Button>
+            Explore China
+          </Button>
+        </Link>
       </div>
     </div>
   );
