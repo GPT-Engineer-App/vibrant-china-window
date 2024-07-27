@@ -4,7 +4,7 @@ import { Separator } from "@/components/ui/separator";
 
 const China = () => {
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 mt-4"> {/* Add top margin */}
       <h1 className="text-3xl font-bold mb-4">China</h1>
       <p className="mb-4">China, officially the People's Republic of China (PRC), is a country in East Asia. It is the world's most populous country and the third-largest by land area.</p>
       

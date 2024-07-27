@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen">
+    <div className="flex flex-col justify-center items-center min-h-[calc(100vh-4rem)]"> {/* Adjust for navbar height */}
       <div className="text-center">
         <h1 className="text-4xl font-bold mb-4">Welcome to Our World Explorer</h1>
         <p className="mb-6">Discover fascinating information about countries around the globe.</p>
