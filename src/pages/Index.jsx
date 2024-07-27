@@ -9,8 +9,8 @@ const Index = () => {
         <h1 className="text-4xl font-bold mb-4">Welcome to Our World Explorer</h1>
         <p className="mb-6">Discover fascinating information about countries around the globe.</p>
         <Link to="/china">
-          <Button>
-            Explore China
+          <Button className="bg-red-600 hover:bg-red-700 text-white">
+            Explore China 🇨🇳
           </Button>
         </Link>
       </div>
